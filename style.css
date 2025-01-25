@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    color:wheat;
+}
+
+button{
+    width: 200px;
+    height: 70px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    color: #000000;
+    background-color: rgb(211, 211, 211);
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+body {
+    background: url('pics/backgroundgood.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+button:hover{
+    background-color: rgb(129, 129, 129);
+    color: rgb(255, 255, 255);
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.translate-left {
+    transform: translateX(-80px);
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.fade-out {
+    animation: fadeOut 5s forwards;
+}
